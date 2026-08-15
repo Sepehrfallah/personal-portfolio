@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sepehr Falah — Front-End Developer Portfolio">
+  <title>Sepehr Falah | Front-End Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">SF<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="btn btn-primary px-4" href="#contact">Let's work</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center min-vh-100 py-5">
+          <div class="col-lg-7">
+            <div class="availability"><span></span> Available for freelance work</div>
+            <p class="eyebrow">HELLO, I'M SEPEHR</p>
+            <h1>Front-End Developer<br><em>building the web.</em></h1>
+            <p class="hero-copy">I create clean, responsive and modern websites with HTML, CSS, Bootstrap and JavaScript — focused on great user experiences and solid details.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#projects" class="btn btn-primary btn-lg">View my work ↓</a>
+              <a href="#contact" class="btn btn-outline-light btn-lg">Contact me ↗</a>
+            </div>
+            <div class="hero-links">
+              <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="https://www.fiverr.com/" target="_blank" rel="noopener">Fiverr ↗</a>
+            </div>
+          </div>
+          <div class="col-lg-5 d-none d-lg-block">
+            <div class="code-card">
+              <div class="window-bar"><i></i><i></i><i></i><span>sepehr.js</span></div>
+              <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Sepehr Falah"</span>,
+  role: <span class="green">"Front-End Developer"</span>,
+
+  skills: [
+    <span class="green">"HTML"</span>,
+    <span class="green">"CSS"</span>,
+    <span class="green">"Bootstrap"</span>,
+    <span class="green">"JavaScript"</span>
+  ],
+
+  passion: <span class="green">"Great UI"</span>,
+  available: <span class="orange">true</span>
+};</code></pre>
+              <div class="terminal-line"><span>›</span> npm run build</div>
+              <div class="success">✓ Project ready to ship</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5"><div class="portrait"><div class="portrait-letter">S</div><div class="portrait-label">FRONT-END<br>DEVELOPER</div></div></div>
+          <div class="col-lg-7">
+            <p class="eyebrow">ABOUT ME</p>
+            <h2>Turning ideas into <span>clean interfaces.</span></h2>
+            <p class="lead">I'm a Computer Engineering student and front-end developer who enjoys turning designs and ideas into responsive websites.</p>
+            <p>I care about simple layouts, readable code, responsive behavior and the small details that make a website feel polished. I'm currently focused on building real-world projects and working with clients on modern web experiences.</p>
+            <div class="about-stats">
+              <div><strong>4+</strong><span>Core technologies</span></div>
+              <div><strong>5</strong><span>Portfolio projects</span></div>
+              <div><strong>100%</strong><span>Learning mindset</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">MY TOOLKIT</p><h2>Skills & technologies.</h2></div>
+        <div class="row g-3">
+          <div class="col-6 col-lg-3"><div class="skill-card"><span class="skill-icon">01</span><h3>HTML5</h3><p>Semantic, accessible and well-structured markup.</p><div class="skill-bar"><span style="width:95%"></span></div><small>95%</small></div></div>
+          <div class="col-6 col-lg-3"><div class="skill-card"><span class="skill-icon">02</span><h3>CSS3</h3><p>Responsive layouts, animations and modern UI styling.</p><div class="skill-bar"><span style="width:95%"></span></div><small>95%</small></div></div>
+          <div class="col-6 col-lg-3"><div class="skill-card"><span class="skill-icon">03</span><h3>Bootstrap</h3><p>Fast responsive development with reusable components.</p><div class="skill-bar"><span style="width:90%"></span></div><small>90%</small></div></div>
+          <div class="col-6 col-lg-3"><div class="skill-card"><span class="skill-icon">04</span><h3>JavaScript</h3><p>Interactive features and dynamic front-end behavior.</p><div class="skill-bar"><span style="width:85%"></span></div><small>85%</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-end gap-4 mb-5">
+          <div><p class="eyebrow">SELECTED PROJECTS</p><h2>A few things I've built.</h2></div>
+          <span class="project-count">01 — 05</span>
+        </div>
+        <div class="project-grid">
+          <article class="portfolio-project project-featured">
+            <div class="project-image project-one"><span>RESTAURANT</span><a href="#" aria-label="Open project">↗</a></div>
+            <div class="project-info"><div><h3>Savoria</h3><p>Modern restaurant website</p></div><span>HTML · CSS · JS</span></div>
+          </article>
+          <article class="portfolio-project">
+            <div class="project-image project-two"><span>BUSINESS</span><a href="#" aria-label="Open project">↗</a></div>
+            <div class="project-info"><div><h3>Nova Studio</h3><p>Business landing page</p></div><span>Bootstrap · JS</span></div>
+          </article>
+          <article class="portfolio-project">
+            <div class="project-image project-three"><span>ECOMMERCE</span><a href="#" aria-label="Open project">↗</a></div>
+            <div class="project-info"><div><h3>Forma Store</h3><p>Product landing concept</p></div><span>HTML · CSS</span></div>
+          </article>
+          <article class="portfolio-project">
+            <div class="project-image project-four"><span>DASHBOARD</span><a href="#" aria-label="Open project">↗</a></div>
+            <div class="project-info"><div><h3>Pulse Admin</h3><p>Analytics dashboard concept</p></div><span>Bootstrap · JS</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5"><p class="eyebrow">WHAT I CAN DO</p><h2>Let's build something useful.</h2></div>
+          <div class="col-lg-7">
+            <div class="service-row"><span>01</span><div><h3>Responsive Websites</h3><p>Modern websites that look great on phones, tablets and desktops.</p></div></div>
+            <div class="service-row"><span>02</span><div><h3>Landing Pages</h3><p>Focused pages designed to communicate your product and drive action.</p></div></div>
+            <div class="service-row"><span>03</span><div><h3>Figma to HTML</h3><p>Pixel-conscious conversion of designs into clean front-end code.</p></div></div>
+            <div class="service-row"><span>04</span><div><h3>Bug Fixes</h3><p>HTML, CSS and JavaScript fixes for existing websites.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="contact-box">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Have a project in mind?</h2>
+          <p>Tell me what you're building and let's turn the idea into a website.</p>
+          <form id="contactForm" class="row g-3 mt-4">
+            <div class="col-md-6"><input type="text" placeholder="Your name" required></div>
+            <div class="col-md-6"><input type="email" placeholder="Your email" required></div>
+            <div class="col-12"><input type="text" placeholder="Project type"></div>
+            <div class="col-12"><textarea rows="5" placeholder="Tell me about your project..." required></textarea></div>
+            <div class="col-12"><button class="btn btn-light btn-lg" type="submit">Send message ↗</button><span id="formMessage"></span></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-4">
+      <div><a class="navbar-brand" href="#home">SF<span>.</span></a><p>Front-End Developer · Istanbul</p></div>
+      <div class="footer-links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+      <small>© 2026 Sepehr Falah. Portfolio project.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
